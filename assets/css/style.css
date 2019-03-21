@@ -1,14 +1,17 @@
-body{
+body {
     background-image:url(../images/ragnarok.jpg);
     background-size: cover;
 
 };
 
 
-header{
-position: relative;
-left: 249px;
-bottom: 49px;
 
+.midContainer {
+    border: 2px solid black;
+    border-style: solid;
+    padding: 2%;
+    background-color:white;
+    color:black;
 
+    
 };
