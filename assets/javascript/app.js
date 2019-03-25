@@ -104,7 +104,7 @@ $(document).ready(function(){
         var Q7 = $('input:radio[name="q7"]:checked').val();
         var Q8 = $('input:radio[name="q8"]:checked').val();
         var Q9 = $('input:radio[name="q9"]:checked').val();
-        var Q10 = $('input:radio[name="q10"]:checked').val();
+        var Q10= $('input:radio[name="q10"]:checked').val();
 
 
 		// This determins the answer count correct or not......
@@ -222,8 +222,8 @@ $(document).ready(function(){
 
 
         // this will display the answers to the html.......
-        $('#correct_answer').html(correctCount);
-        $('#wrong_answer').html(wrongCount);
+        $('#correct_answers').html(correctCount);
+        $('#wrong_answers').html(wrongCount);
 		$('#unanswered').html(unansweredCount);
 		
 		
